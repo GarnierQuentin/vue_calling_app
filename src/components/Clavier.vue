@@ -67,3 +67,8 @@
     <input type="image" src="https://i.pinimg.com/originals/81/45/bd/8145bd48b6b0593d01d69d499d2a1f8f.png" @click="ajoutHistorique(phone_number)">
 
 </template>
+
+
+<style lang="scss">
+
+</style>
