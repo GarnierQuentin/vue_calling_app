@@ -29,12 +29,12 @@
             },
 
             ajoutHistorique(number) {
-                this.user.ajoutHistorique(this.form)
-                this.form = {
+                this.form = {   
                     id: number,
                     date: new Date().getFullYear() + "-" + new Date().getMonth() + "-" + new Date().getDate(),
                     heure: new Date().getHours() + ":" + new Date().getMinutes(),
                 }
+                this.user.ajoutHistorique(this.form)
             },
         },
     }
