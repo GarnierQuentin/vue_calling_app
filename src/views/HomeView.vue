@@ -32,7 +32,7 @@
 </template>
 
 
-<style scoped>
+<style lang="scss">
 
   *{
     margin: 0;
@@ -40,11 +40,38 @@
     box-sizing: border-box;
   }
 
+  body{
+    background-color: whitesmoke;
+    color: black;
+  }
+
   #app{
     display: grid;
     grid-template-rows: 1fr 4fr;
     height: 100vh;
     width: 100%;
+  }
+
+  .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .user-card{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 3px solid orange;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    input{
+      width: 25%;
+      height: 25%;
+    }
   }
 
 </style>
