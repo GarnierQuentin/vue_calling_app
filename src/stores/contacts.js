@@ -1,18 +1,16 @@
 import { defineStore } from "pinia";
 
-export const useJournalStore = defineStore("journal", {
+export const useContactStore = defineStore("contact", {
 
 
     state: () => ({
         contacts: [
             {
-                prenom: "Nicolas",
-                nom: " De Garrigues",
+                name: "Nicolas De Garrigues",
                 number: "0668676767",
             },
             {
-                prenom: "Thomas",
-                nom: "",
+                name: "Thomas",
                 number: "0747361946",
             }
         ],

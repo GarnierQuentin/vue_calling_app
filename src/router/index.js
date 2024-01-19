@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import addContactView from '../views/AddContactView.vue'
+import AddContactView from '../views/AddContactView.vue'
 import ClavierView from '../views/ClavierView.vue'
 import ContactsView from '../views/ContactsView.vue'
 
@@ -13,9 +13,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/add_contact',
-      name: 'add_contact',
-      component: addContactView
+      path: '/add_contacts',
+      name: 'add_contacts',
+      component: AddContactView
     },
     {
       path: '/clavier',
