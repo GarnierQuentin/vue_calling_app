@@ -16,9 +16,11 @@ export default {
 <template>
   <div>
     <h1>Page d'ajout de contact</h1>
+
+    <div class="form">
+      <FormContact />
+    </div>
   </div>
-  
-  <FormContact />
 </template>
 
 <style lang="scss">
@@ -26,4 +28,32 @@ export default {
     background-color: whitesmoke;
     color: black;
   }
+  
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200%;
+
+      input{
+        width: 25%;
+        height: 25%;
+      }
+    }
+  } 
+  
 </style>

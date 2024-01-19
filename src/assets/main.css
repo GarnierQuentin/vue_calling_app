@@ -3,3 +3,28 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
 }
+
+#add{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: #ccc;
+}
